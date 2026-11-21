@@ -1,0 +1,13 @@
+# Use Python 3.12 to create the virtual environment
+p
+py -3.12 -m venv mllearn
+
+# Activate the environment
+
+mllearn\Scripts\activate
+
+# Install ipykernel
+pip install ipykernel
+
+# Install the kernel for Jupyter
+python -m ipykernel install --user --name mllearn

@@ -1,0 +1,108 @@
+🐍 Installing Python 3.12 on HPC Cluster
+
+Author: Muhammad Abdulrahman
+Purpose: Manual installation of Python 3.12 for custom environments on HPC clusters without root access.
+Example location: /gpfs/home/saba/saba600644/Python-3.12.1
+
+1. Overview
+
+This document summarizes the complete process used to build and install Python 3.12.1 from source on an HPC system.
+The goal was to create an isolated, user-level Python installation and virtual environment for offline or controlled package management.
+
+2. Prerequisites
+
+Access to a compute node or login node with GCC, make, and wget
+
+Build tools module (e.g. EB/apps, buildtools/2025a)
+
+Sufficient storage quota in home or scratch directory
+
+3. Download Python Source
+cd /gpfs/home/saba/saba600644/
+wget https://www.python.org/ftp/python/3.12.1/Python-3.12.1.tgz
+tar -xzf Python-3.12.1.tgz
+cd Python-3.12.1
+
+4. Configure Build
+
+Run configure to set the install prefix and enable optimizations:
+
+./configure --prefix=/gpfs/home/saba/saba600644/Python-3.12.1 \
+            --enable-optimizations \
+            --with-ensurepip=install
+
+
+Flags explained:
+
+--prefix → installation directory under user’s home
+
+--enable-optimizations → improves runtime performance (PGO/LTO)
+
+--with-ensurepip=install → includes pip by default
+
+5. Compile and Install
+make -j8          # parallel build; adjust cores as available
+make install
+
+
+After installation, verify the binary:
+
+/gpfs/home/saba/saba600644/Python-3.12.1/bin/python3.12 --version
+
+
+Expected output:
+
+Python 3.12.1
+
+6. Set Up Virtual Environment
+
+Create an isolated environment (example: world):
+
+/gpfs/home/saba/saba600644/Python-3.12.1/bin/python3.12 -m venv /gpfs/home/saba/saba600644/world
+source /gpfs/home/saba/saba600644/world/bin/activate
+
+
+Verify:
+
+which python
+python --version
+
+7. Install Packages
+Option A: Online Installation
+pip install numpy pandas dask
+
+Option B: Offline Installation
+
+If wheels were pre-downloaded (e.g. in /gpfs/home/saba/saba600644/wheels/):
+
+pip install --no-index --find-links=/gpfs/home/saba/saba600644/wheels/ *.whl
+
+8. (Optional) Conda Integration
+
+If you plan to use Conda activation commands:
+
+conda init bash
+source ~/.bashrc
+
+
+Then:
+
+conda activate world
+
+9. Verification
+
+Run a quick test:
+
+python -c "import pandas, dask; print('All good! Python and libraries working correctly.')"
+
+10. Notes and Best Practices
+
+Always use UNIX line endings in SLURM scripts (\n, not \r\n).
+
+Use local installation prefixes to avoid permission issues.
+
+When building on shared HPC, compile once and share via module or symlink.
+
+Keep a copy of your wheel files for reproducibility across clusters.
+
+Would you like me to add a short “Troubleshooting” section (e.g., common errors like “unsupported wheel,” “ModuleNotFoundError,” or “conda not initialized”)? That would make it ready for inclusion in your HPC reproducibility guide.

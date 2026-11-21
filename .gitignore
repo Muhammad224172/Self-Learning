@@ -1,0 +1,71 @@
+# ---- Local-only folders (books, papers, personal files, backups) ----
+books/
+papers/
+OneDrive/
+_local/
+
+# ---- Documents (copyrighted / large) ----
+*.pdf
+*.epub
+*.djvu
+
+# ---- Datasets & archives ----
+*.csv
+*.tsv
+*.tar.gz
+*.tgz
+*.zip
+*.gz
+*.parquet
+*.h5
+*.npy
+*.npz
+machine-learning/Chapter 8/aclImdb/
+machine-learning/Chapter 12/celeba/
+machine-learning/Chapter 12/img_align_celeba/
+machine-learning/Chapter 12/cat_dog_images/
+machine-learning/Chapter 18/raw/
+machine-learning/Chapter 18/processed/
+llm-from-scratch/chapter 6/sms_spam_collection/
+data/
+datasets/
+
+# ---- Model weights / checkpoints ----
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.conda/
+env/
+.env
+
+# ---- Compiled binaries ----
+*.o
+*.out
+*.exe
+practice/cpp/helloworld
+
+# ---- Secrets (never commit) ----
+*key*.txt
+*.pem
+*.key
+id_rsa*
+*token*
+
+# ---- Editors / OS ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

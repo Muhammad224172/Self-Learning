@@ -1,0 +1,56 @@
+Define genetics.,Study of heredity and variation of traits in organisms.
+Were ancient breeders geneticists and how did they differ from modern ones?,They practiced selective breeding without knowledge of genes or DNA while modern genetics uses molecular and experimental understanding.
+How does DNA dictate species properties?,DNA encodes proteins and regulatory elements that control development physiology and structure.
+What properties make DNA suitable as hereditary material?,Stable double helix replication ability mutation capacity information density repair mechanisms.
+Possible alternative hereditary molecules?,RNA analog polymers silicon-based chains or other self-replicating information polymers.
+How many DNA sequences 10 bp long exist?,4^10 = 1,048,576 possible sequences.
+If thymine is 15 percent what is cytosine percent?,35 percent since A=T and G=C.
+If GC content is 48 percent what are nucleotide proportions?,G=24 C=24 A=26 T=26 percent.
+46 chromosomes correspond to how many DNA molecules?,46 molecules one per chromosome.
+How many different types of DNA molecules in a human somatic cell?,23 types homologous pairs counted once.
+Complementary strand for ATTGGTGCATTACTTCAGGCTCT?,TAACCACGTAATGAAGTCCGAGA
+Can A exceed T in single strand DNA?,Yes base pairing constraint applies only to double stranded DNA.
+Does A+C equal G+T in dsDNA?,Yes total purines equal total pyrimidines.
+Does A+G equal C+T in dsDNA?,Yes purines equal pyrimidines.
+Replication model of DNA.,Semiconservative each daughter has one old strand and one new strand.
+RNA transcript if bottom strand is template?,UUGGCACGUCGUAAU
+Define gene.,DNA sequence producing functional product RNA or protein.
+Problem with defining gene.,Includes regulatory elements alternative splicing overlapping transcripts unclear boundaries.
+Why gene length larger than mRNA?,Introns removed during RNA splicing reduce final mRNA size.
+Bands from electrophoresis Neurospora pea housefly?,7 bands 7 bands 6 bands respectively reflecting chromosome count sets.
+Formula relating RNA size to gene size?,RNA size = gene size minus total intron length.
+Anticodon for mRNA codon UUA?,AAU
+Pathway reasoning mutants colors?,Mutation blocks pathway before pigment accumulation altering final color phenotype.
+Sweet pea null mutation in gene B petals color?,Colorless no pigment formed.
+Null mutation in gene D petals color?,Red pigment accumulates lacking conversion.
+Double mutant B and D color?,Colorless both steps blocked.
+What is a metabolic pathway?,Series of enzyme catalyzed reactions converting substrates to products.
+Are pigment pathways independent?,No they share intermediates sequential dependency.
+Define pigment.,Molecule absorbing visible light producing color.
+Meaning of colorless here?,No absorbing pigment present transparent appearance.
+What would colorless petal look like?,White or lacking color.
+Is pigment mixing like paint?,No biochemical synthesis not additive blending.
+What is mutation?,Change in DNA sequence.
+What is null mutation?,Allele causing complete loss of gene function.
+Cause of null mutation?,Deletion nonsense frameshift or severe missense.
+Meaning of two copies?,Diploid organisms have two alleles per gene.
+Relevance of proteins in pathway?,Genes encode enzymes controlling pigment synthesis.
+Chromosomal location importance here?,Not relevant phenotype depends on function not linkage.
+Clustered null alleles explanation?,Essential functional domain localized mutations there disrupt protein.
+Albino mouse enzyme present but inactive why?,Protein expressed but mutated inactive catalytic site.
+Why PKU babies of PKU mothers affected?,Maternal phenylalanine crosses placenta damaging fetal development.
+Why diet ineffective for them?,Damage occurred prenatally not corrected post birth.
+Difference PKU babies vs PKU mothers babies?,Direct genetic deficiency vs maternal metabolic environment exposure.
+Treatment for PKU mothers?,Strict low phenylalanine diet before and during pregnancy.
+Haplosufficient enzyme inheritance pattern?,Recessive phenotype.
+Nature of mutant allele causing inactive enzyme?,Sequence change altering active site or folding.
+Symptom alleviation GGC?,Hormone supplementation.
+Why newborns normal then worsen?,Maternal hormone supply before birth masks deficiency.
+Information to form analogy biology vs house building?,Genetic blueprint vs architectural plan executed by builders or cellular machinery.
+Exception to proteins determine structure?,Structural roles of lipids minerals carbohydrates.
+Norms of reaction relevance?,Range of phenotypes genotype expresses across environments.
+Types of phenotypic variation?,Continuous discontinuous environmental genetic interactions.
+Is genotype plus environment equals phenotype accurate?,Oversimplified ignores epigenetics stochastic effects interactions.
+How identify genetic basis of phenotype?,Heritability tests crosses family studies molecular mapping.
+Are variants inherited consistently?,Follow Mendelian or complex inheritance patterns.
+Gene level explanation of inheritance?,DNA sequence transmission replication segregation expression.

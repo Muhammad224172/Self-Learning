@@ -1,0 +1,9 @@
+name: World
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch
+  - cpuonly
+  - ipykernel
+prefix: /home/mabdulrahman/miniforge3/envs/World

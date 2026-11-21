@@ -1,0 +1,10 @@
+project: muhammad19
+kernel_slug: muhammad19/muhammad19
+code_file: chapter 5/chapter_5.ipynb
+accelerator: gpu
+internet: false
+privacy: private
+datasets: []
+competitions: []
+outputs:
+  download_to: .kaggle-outputs/

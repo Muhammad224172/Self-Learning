@@ -1,0 +1,6 @@
+books/
+books/
+kaggle.json
+.kaggle-outputs/
+__pycache__/
+.ipynb_checkpoints/

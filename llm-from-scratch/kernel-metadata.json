@@ -1,0 +1,13 @@
+{
+  "id": "muhammad19/muhammad19",
+  "title": "Muhammad19",
+  "code_file": "chapter 5/chapter_5.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "enable_tpu": false
+}
